@@ -1,23 +1,20 @@
 {
-  "name": "deepseek-mcp-server",
+  "name": "multi-provider-mcp-server",
   "version": "0.3.0",
-  "description": "Model Context Protocol server supporting multiple AI providers including DeepSeek, OpenAI, Claude, Mistral, Codestral, and Gemini.",
+  "description": "Universal MCP 'Swiss Army Knife' - Single interface to multiple AI providers. Perfect for Microsoft Copilot Studio and enterprise deployments.",
   "type": "module",
   "main": "build/index.js",
   "bin": {
-    "deepseek-mcp-server": "./build/index.js"
+    "multi-provider-mcp-server": "./build/index.js"
   },
   "files": [
-    "build/**/*",
-    "assets/favicon.ico",
-    "assets/favicon-32x32.png",
-    "assets/apple-touch-icon.png"
+    "build/**/*"
   ],
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
     "prepublishOnly": "npm run build",
-    "inspect": "npx @modelcontextprotocol/inspector build/index.js",
+    "inspect": "npx @modelcontextprotocol/inspector node ./build/index.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
@@ -39,22 +36,28 @@
     "ts-jest": "^29.4.0",
     "typescript": "^5.2.2"
   },
-  "author": "DMontgomery40",
+  "author": "PlumyCat",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DMontgomery40/deepseek-mcp-server"
+    "url": "https://github.com/PlumyCat/Multi-Provider-MCP-Server"
   },
   "keywords": [
     "mcp",
+    "multi-provider",
+    "swiss-army-knife",
+    "copilot-studio",
+    "microsoft",
+    "enterprise",
     "deepseek",
     "openai",
+    "azure-openai",
     "claude",
     "mistral",
     "codestral",
     "gemini",
     "ai",
     "llm",
-    "multi-provider"
+    "universal-interface"
   ]
 }

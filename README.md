@@ -8,12 +8,12 @@ Unlike traditional multi-provider servers, this MCP server is designed to be **c
 
 <a href="https://glama.ai/mcp/servers/asht4rqltn"><img width="380" height="200" src="https://glama.ai/mcp/servers/asht4rqltn/badge" alt="Universal MCP Server" /></a>
 
-[![npm version](https://img.shields.io/npm/v/deepseek-mcp-server)](https://www.npmjs.com/package/deepseek-mcp-server)
-[![npm downloads](https://img.shields.io/npm/dm/deepseek-mcp-server)](https://www.npmjs.com/package/deepseek-mcp-server)
-[![GitHub issues](https://img.shields.io/github/issues/DMontgomery40/deepseek-mcp-server)](https://github.com/DMontgomery40/deepseek-mcp-server/issues)
-[![GitHub forks](https://img.shields.io/github/forks/DMontgomery40/deepseek-mcp-server)](https://github.com/DMontgomery40/deepseek-mcp-server/network)
-[![GitHub stars](https://img.shields.io/github/stars/DMontgomery40/deepseek-mcp-server)](https://github.com/DMontgomery40/deepseek-mcp-server/stargazers)
-[![GitHub license](https://img.shields.io/github/license/DMontgomery40/deepseek-mcp-server?color=blue)](https://github.com/DMontgomery40/deepseek-mcp-server/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/multi-provider-mcp-server)](https://www.npmjs.com/package/multi-provider-mcp-server)
+[![npm downloads](https://img.shields.io/npm/dm/multi-provider-mcp-server)](https://www.npmjs.com/package/multi-provider-mcp-server)
+[![GitHub issues](https://img.shields.io/github/issues/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/issues)
+[![GitHub forks](https://img.shields.io/github/forks/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/network)
+[![GitHub stars](https://img.shields.io/github/stars/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/stargazers)
+[![GitHub license](https://img.shields.io/github/license/PlumyCat/Multi-Provider-MCP-Server?color=blue)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/blob/main/LICENSE)
 
 ## 🚀 **Perfect for Microsoft Copilot Studio**
 
@@ -28,14 +28,14 @@ This MCP server provides a **unified interface** for all AI providers, making it
 ### Quick Start with npm
 
 ```bash
-npm install -g deepseek-mcp-server
+npm install -g multi-provider-mcp-server
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/DMontgomery40/deepseek-mcp-server.git
-cd deepseek-mcp-server
+git clone https://github.com/PlumyCat/Multi-Provider-MCP-Server.git
+cd Multi-Provider-MCP-Server
 npm install
 npm run build
 ```
@@ -93,8 +93,8 @@ GEMINI_API_KEY=your-gemini-api-key
   "mcpServers": {
     "LLM": {
       "command": "node",
-      "args": ["F:/MCP-Server/deepseek-mcp-server/build/index.js"],
-      "cwd": "F:/MCP-Server/deepseek-mcp-server",
+      "args": ["F:/MCP-Server/Multi-Provider-MCP-Server/build/index.js"],
+      "cwd": "F:/MCP-Server/Multi-Provider-MCP-Server",
       "env": {
         "PROVIDER": "azure-openai"
       }
@@ -110,8 +110,8 @@ GEMINI_API_KEY=your-gemini-api-key
   "mcpServers": {
     "LLM": {
       "command": "node",
-      "args": ["F:/MCP-Server/deepseek-mcp-server/build/index.js"],
-      "cwd": "F:/MCP-Server/deepseek-mcp-server",
+      "args": ["F:/MCP-Server/Multi-Provider-MCP-Server/build/index.js"],
+      "cwd": "F:/MCP-Server/Multi-Provider-MCP-Server",
       "env": {
         "PROVIDER": "azure-openai"
       }
@@ -256,8 +256,8 @@ This MCP server is specifically designed for **Microsoft Copilot Studio** custom
 
 ## 🆘 **Support**
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/DMontgomery40/deepseek-mcp-server/issues)
-- **GitHub Discussions**: [Community support](https://github.com/DMontgomery40/deepseek-mcp-server/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/PlumyCat/Multi-Provider-MCP-Server/issues)
+- **GitHub Discussions**: [Community support](https://github.com/PlumyCat/Multi-Provider-MCP-Server/discussions)
 
 ## 📄 **License**
 

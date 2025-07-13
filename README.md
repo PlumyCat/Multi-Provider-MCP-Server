@@ -8,8 +8,6 @@ Unlike traditional multi-provider servers, this MCP server is designed to be **c
 
 <a href="https://glama.ai/mcp/servers/asht4rqltn"><img width="380" height="200" src="https://glama.ai/mcp/servers/asht4rqltn/badge" alt="Universal MCP Server" /></a>
 
-[![npm version](https://img.shields.io/npm/v/multi-provider-mcp-server)](https://www.npmjs.com/package/multi-provider-mcp-server)
-[![npm downloads](https://img.shields.io/npm/dm/multi-provider-mcp-server)](https://www.npmjs.com/package/multi-provider-mcp-server)
 [![GitHub issues](https://img.shields.io/github/issues/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/network)
 [![GitHub stars](https://img.shields.io/github/stars/PlumyCat/Multi-Provider-MCP-Server)](https://github.com/PlumyCat/Multi-Provider-MCP-Server/stargazers)
